@@ -16,4 +16,4 @@ Criteo OneTag'in doğru şekilde çalışabilmesi için iki farklı kodun web si
     
          <script type="text/javascript"> window.criteo_q = window.criteo_q || []; var deviceType = /iPad/.test(navigator.userAgent) ? "t" : /Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk/.test(navigator.userAgent) ? "m" : "d"; window.criteo_q.push( { event: "setAccount", account: YOUR_PARTNER_ID}, { event: "setEmail", email: "##Email Address##" }, { event: "setSiteType", type: deviceType}, { event: "viewPage" } ); </script>
 
-3.  Yukarıdaki ziyaret etiketi (visit tag), başka bir Criteo etiketi içermeyen tüm sayfalarda tetiklenmesi gerekmektedir.`
+3.  Yukarıdaki ziyaret etiketi (visit tag), başka bir Criteo etiketi içermeyen tüm sayfalarda tetiklenmesi gerekmektedir.
